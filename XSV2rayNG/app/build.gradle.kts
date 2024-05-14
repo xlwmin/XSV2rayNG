@@ -8,8 +8,8 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.v2ray.ang"
-        minSdk = 21
+        applicationId = "com.v2ray.ang.xsv2ray"
+        minSdk = 26
         targetSdk = 34
         versionCode = 559
         versionName = "1.8.23"
@@ -102,20 +102,21 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
 
     //kotlin
-    implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.23")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0")
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.24")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 
-    implementation("com.tencent:mmkv-static:1.3.4")
+    implementation("com.tencent:mmkv-static:1.3.5")
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("io.reactivex:rxjava:1.3.8")
     implementation("io.reactivex:rxandroid:1.2.1")
-    implementation("com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar")
+    implementation("com.github.tbruyelle:rxpermissions:0.12")
+    implementation("io.reactivex.rxjava3:rxjava:3.0.4")
     implementation("me.drakeet.support:toastcompat:1.1.0")
     implementation("com.blacksquircle.ui:editorkit:2.9.0")
     implementation("com.blacksquircle.ui:language-base:2.9.0")
     implementation("com.blacksquircle.ui:language-json:2.9.0")
-    implementation("io.github.g00fy2.quickie:quickie-bundled:1.9.0")
+    implementation("io.github.g00fy2.quickie:quickie-bundled:1.10.0")
     implementation("com.google.zxing:core:3.5.3")
 
     implementation("androidx.work:work-runtime-ktx:2.8.1")

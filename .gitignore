@@ -1,5 +1,6 @@
 *.dat
 *.jks
+*.aar
 V2rayNG/app/release/output.json
 .idea/
 .gradle/

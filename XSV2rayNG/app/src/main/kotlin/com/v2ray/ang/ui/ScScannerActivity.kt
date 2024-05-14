@@ -2,7 +2,7 @@ package com.v2ray.ang.ui
 
 import android.Manifest
 import android.content.*
-import com.tbruyelle.rxpermissions.RxPermissions
+import com.tbruyelle.rxpermissions3.RxPermissions
 import com.v2ray.ang.R
 import com.v2ray.ang.util.AngConfigManager
 import android.os.Bundle
